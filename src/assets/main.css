@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    max-width: 1200px;
+    min-height: calc(100vh - 50px);
+    margin: 25px auto;
+    box-shadow: 0 0 6px 2px rgb(0 0 0 / 41%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.el-dialog {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    top: 50%;
+}
+
+.el-table .el-table__cell {
+    z-index: auto;
+}
